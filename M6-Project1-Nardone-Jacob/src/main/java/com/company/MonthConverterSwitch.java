@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class MonthConverterSwitch {
 
-
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
         int input = myScanner.nextInt();
@@ -59,7 +58,7 @@ public class MonthConverterSwitch {
                 System.out.println("November");
                 break;
 
-            case 12:
+            default: // must be 12
                 System.out.println("December");
                 break;
         }
